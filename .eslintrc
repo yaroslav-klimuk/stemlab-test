@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": ["airbnb/base"],
+    "rules": {
+        "no-console": "off",
+        "no-tabs": "off",
+        "semi": "warn",
+        "no-plusplus": "off",
+        "indent": [2,"tab"]
+    }
+}
+/*https://www.youtube.com/watch?v=Yf1_uTwKVxA&ab_channel=EasyCode
+npm init -y
+npm i --save-dev eslint
+npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-html eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier prettier
+*/
