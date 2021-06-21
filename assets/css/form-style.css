@@ -80,4 +80,11 @@ body {
 .main-form__btn:hover {
   background-color: #008538;
 }
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
 /*# sourceMappingURL=form-style.css.map */

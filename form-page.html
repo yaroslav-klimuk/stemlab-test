@@ -16,19 +16,21 @@
     <div class="container">
       <div class="form-wrapper">
         <h1 class="title">Predict your retention!</h1>
-        <form action="#" class="main-form" id="form">
+        <form action="#" method="POST" class="main-form" id="form">
           <label for="numbers" class="main-form__label">Input percentage of returned users in a cohort on the first,
             second, third... days:</label>
-          <input type="text" name="numbers" id="numbers" class="main-form__input">
+          <input type="text" name="percentage_points" id="numbers" class="main-form__input">
           <label for="points" class="main-form__label">How much points to predict?</label>
-          <input type="text" name="points" id="points" class="main-form__input">
+          <input type="text" name="points_to_predict" id="points" class="main-form__input">
           <input type="submit" value="Show Retention" class="main-form__btn">
         </form>
       </div>
     </div>
+    <div class="img-wrapper" id="img-wrapper">
 
+    </div>
   </section>
 </body>
-<script src="assets/form-script.js"></script>
+<script src="js/main.js"></script>
 
 </html>
